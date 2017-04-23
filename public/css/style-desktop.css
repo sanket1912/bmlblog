@@ -1,0 +1,194 @@
+/*
+	Iridium by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+	a {
+		text-decoration: none;
+	}
+	body
+	{
+	}
+
+	body,input,textarea,select
+	{
+		font-size: 11pt;
+	}
+.sidebar a {
+	color: #333;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		padding: 1em 1em 20em 1em;
+		text-align: left;
+	}
+	
+		.homepage #header
+		{
+			padding: 5em 0em;
+		}
+
+		#header .container
+		{
+		}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		margin-bottom: 5em;
+	}
+	
+		#logo h1
+		{
+			color: #333;
+		}
+	
+		#logo h1 a
+		{
+			display: block;
+			letter-spacing: 1px;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 5em;
+			font-weight: 900;
+			color: #333;
+		}
+
+		#logo span
+		{
+			display: block;
+			padding-top: 1sem;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			font-size: 1.2em;
+			color: #111;
+		}			
+			
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+#nav > ul > li
+{
+	display: initial;
+}
+
+	#nav > ul > li:last-child
+	{
+		padding-left: 0;
+	}
+
+	#nav > ul > li > a,
+	#nav > ul > li > span
+	{
+		display: inline-block;
+		padding: 0.5em 2em;
+		padding-left: 0px;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 100;
+		font-size: 1em;
+		outline: 0;
+		color: #;
+	}
+	}
+
+
+	#nav > ul > li > a:hover
+	{
+		color: #111;
+		padding-left: 20px;
+	}
+
+	#nav li.active a
+	{
+		background: none;
+		border-radius: 30px;
+		border: 3px solid;
+		border-color: #fff;
+		color: #111;
+		padding-left: 0px;
+	}
+
+	#nav > ul > li > ul
+	{
+		width: 100%;
+		padding-right: 0px;
+	}
+
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		padding: 5em 0em 4em 0em;
+	}
+	
+	#content
+	{
+	}
+	
+	#content header
+	{
+		margin-bottom: 2em;
+	}
+	
+	#content header h2
+	{
+		font-size: 2em;
+	}
+	
+	#content header .byline
+	{
+		font-size: 1.20em;
+	}
+	
+	#sidebar h2
+	{
+		display: block;
+		padding-bottom: 1em;
+		font-size: 1.4em;
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+	
+	#featured
+	{
+		padding: 5em 0em;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+	
+	#footer
+	{
+		position: relative;
+		padding: 5em 0em 3em 0em;
+	}
+	
+	#footer h2
+	{
+		padding-bottom: 2em;
+		font-size: 1.4em;
+	}
+	
